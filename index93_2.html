@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Герберы</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $("button").click(function () {
+        $('img:odd').slideUp("slow");
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <button> Скрыть четные картинки </button><br>
+  <img src="images/1.jpg" alt="1.jpg" title="1.jpg" width="250" height="200">
+  <img src="images/2.jpg" alt="2.jpg" title="2.jpg" width="250" height="200">
+  <img src="images/3.jpg" alt="3.jpg" title="3.jpg" width="250" height="200">
+  <img src="images/4.jpg" alt="4.jpg" title="4.jpg" width="250" height="200">
+  <img src="images/5.jpg" alt="5.jpg" title="5.jpg" width="250" height="200">
+  <img src="images/6.jpg" alt="6.jpg" title="6.jpg" width="250" height="200">
+</body>
+
+</html>
